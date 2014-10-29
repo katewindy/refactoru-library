@@ -7,12 +7,21 @@
     <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
-      <section id="jms-slideshow" class="jms-slideshow">
-        <div class="step">
-          <div class="jms-content">
-            
+
+  <!-- Root element that contains the slideshow -->
+      <section id="jmpress-slideshow-part1" class="jmp-slideshow">
+        
+        <!-- Applying a template to multiple children -->
+          <div class="step" data-template="spin-out-0">
+            <p>Rolling stone</p>
           </div>
-        </div>
+          <div class="step" data-template="spin-out-1">
+            <p>Rolling stoner</p>
+          </div>
+          <div class="step" data-template="spin-out-2">
+            <p>Rolling stonest</p>
+          </div>
+       </div>
 
       </section>
     
@@ -20,6 +29,7 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.js"></script>
     <script src="lib/jmpress.custom.js"></script>
+    <script src="jmpress-templates.js"></script>
     <script src="main.js"></script>
 
   </body>

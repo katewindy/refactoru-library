@@ -1,0 +1,12 @@
+/* A little coloring to differntiate active from inactive slides */
+
+.step {
+	/*display: none;*/
+	color: grey;
+}
+
+.step.active {
+	display: block;
+
+	color: red;
+}
