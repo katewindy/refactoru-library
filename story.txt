@@ -1,0 +1,15 @@
+Once upon a time, a little T-Rex decided he wanted to do something cool with his website.
+
+He googled and he googled and then he found a neat jQuery library called jmpress.js.
+
+It could do all sorts of neat things.
+
+Like zoom.  Or turn sideways.
+
+So he started by downloading it and including it in his project.
+
+Then he took a break and ate a couple of humans for a snack.
+
+Nom.
+
+he started by making a 
